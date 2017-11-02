@@ -1,12 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## Version 1.0.0 - 08/27/2017
+## Version 1.0.0 - 11/02/2017
+
+Summary: First release based on `TACC/tacc-cloud-sdk-kit`
+
 ### Added
 * Nothing
 
 ### Changed
-* Fork of https://github.com/cyverse/cyverse-sdk with support for tenant templating
+* Nothing
 
 ### Removed
 * Nothing
