@@ -32,8 +32,8 @@
 
 HOME=$HOME
 _USER_AGENT="sd2e-cloud-cli-install/1.0.0"
-_REPO_URL="https://github.com/SD2E/sd2e-cli"
-_CLI_DEST="sd2e-cloud-cli"
+_REPO_URL="https://github.com/Designsafe-CI/dscli"
+_CLI_DEST="dscli"
 # helpers.sh
 #
 # Check whether a command exists - returns 0 if it does, 1 if it does not
@@ -313,10 +313,10 @@ fi
 
 # TEST
 echo "Testing..."
-if [ -f "$HOME/${_CLI_DEST}/bin/sd2e" ];
+if [ -f "$HOME/${_CLI_DEST}/bin/ds" ];
 then
-  INFO=$($HOME/${_CLI_DEST}/bin/sd2e info)
-  echo "$INFO" | grep -i --quiet "sd2e"
+  INFO=$($HOME/${_CLI_DEST}/bin/ds info)
+  echo "$INFO" | grep -i --quiet "designsafe"
   if [ $? = 1 ]
   then
     echo "Attempt to validate installation failed!"
